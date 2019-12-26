@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
+
 <body>
 <!---NavigationBar---------->
     <section id="nav-bar">
@@ -176,6 +177,28 @@
 
 
   </section>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvHZ0kBUU7J1R0qQbgxkcIT2MoG1nsk44",
+    authDomain: "htdocs3.firebaseapp.com",
+    databaseURL: "https://htdocs3.firebaseio.com",
+    projectId: "htdocs3",
+    storageBucket: "htdocs3.appspot.com",
+    messagingSenderId: "291599205833",
+    appId: "1:291599205833:web:d90d17b4fd161143685418",
+    measurementId: "G-2LERXPW0V1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
